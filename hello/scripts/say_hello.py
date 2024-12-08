@@ -1,7 +1,12 @@
 #!/usr/bin/python3
 
+from colorama import Style
+from colorama import Fore
+
+
 def main():
-    print('Hello!')
+    print(Fore.RED + 'Hello!')
+    print(Style.RESET_ALL)
 
 
 if __name__ == '__main__':
